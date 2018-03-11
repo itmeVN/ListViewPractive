@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textTenSV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:text="Ten sinh vien"
+        android:textColor="#2924b4"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textMaSV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textTenSV"
+        android:layout_marginLeft="25dp"
+        android:text="Ma sinh vien"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textDiaChi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textMaSV"
+        android:layout_marginLeft="25dp"
+        android:text="Dia chi"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textsdt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textDiaChi"
+        android:layout_marginLeft="25dp"
+        android:text="So dien thoai"
+        android:textSize="16sp" />
+
+</RelativeLayout>
